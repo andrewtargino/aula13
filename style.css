@@ -16,8 +16,7 @@ html{
 .container{
     margin: 0 auto;
     width: 1240px;
-    max-width: 90%;
-    
+    max-width: 90%;   
 }
 .flex-header{
     display: flex;
@@ -217,31 +216,47 @@ ul>li{
 .lista-alunos{
     display: flex;
     flex-direction: row;
-    width: 1240px;
     padding-top: 30px;
     gap: 30px;
 }
-.review1{
+.review-topo > h1{
+    text-align: center;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.review1, .review2, .review3{
+    border: 2px solid rgb(4, 213, 255);
     display: flex;
     height: 250px;
     width: 410px;
-    border-radius: 2%;
-    background-color: rgb(224, 224, 224);
+    border-radius: 3%;
     align-items: center;
+    justify-content: center;
+    transition: transform .2s;
 }
-.review2{
+.depoimento{
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+.review-column{
     display: flex;
-    height: 250px;
-    width: 410px;
-    border-radius: 2%;
-    background-color: rgb(224, 224, 224);
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.review3{
-    display: flex;
-    height: 250px;
-    width: 410px;
-    border-radius: 2%;
-    background-color: rgb(224, 224, 224);
-    align-items: center;
+.fotosreview{
+    border-radius: 90%;
 }
+.review-pessoa{
+    color: rgb(110, 110, 110);
+    font-weight: 40;
+    text-align: center;
+}
+.review1:hover, .review2:hover, .review3:hover {
+    margin-bottom: 10px;
+    transform: translateY(10px);
+}
+
+
