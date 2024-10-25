@@ -218,6 +218,7 @@ ul>li{
     flex-direction: row;
     padding-top: 30px;
     gap: 30px;
+    height: 300px;
 }
 .review-topo > h1{
     text-align: center;
@@ -269,5 +270,52 @@ ul>li{
     display: flex;
     font-size: 40px;
 }
+.cursos-profia{
+    display: flex;
+    background-color: chocolate;
+    justify-content: space-around;
+}
+.cardbox{
+    width: 520px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.cardbox:hover{
+    background-color: azure;
+}
+.cardbox:hover .cardbox2{
+    background-color: rgb(0, 225, 255);
+    background-image: url("./foot-hover.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease-in 0.5s;
+}
+.cardbox2{
+    width: 230px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(118, 203, 220);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-40deg) translateY(60px);
+    border-radius: 10px;
+    background-image: url("./foot-sign-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cursosprofia{
+    margin-bottom: 300px;
+}
+.cursos, #avaliacao{
+    background-color: chartreuse;
+}
+
+
+
+
 
 
