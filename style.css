@@ -328,15 +328,20 @@ ul>li{
 }
 .ladoA{
     padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
 .ladoB{
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
 .containerparte2{
     margin: 0 auto;
     width: 1080px;
     max-width: 90%;  
-    background-color: rgb(245, 245, 245); 
 }
 .botao-vagas{
     width: 130px;
@@ -353,6 +358,31 @@ ul>li{
     position: absolute;
     left: 320px;
     top: 45px    
+}
+.container-background{
+    background-color: rgb(245, 245, 245); 
+}
+.linha{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(220, 220, 220);
+    margin: 0 auto;
+}
+.saiba-mais{
+    margin-left: 45px;
+    width: 140px;
+    border: 2px solid rgb(195, 195, 195);
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 10px;
+    color: rgb(123, 123, 123);
+}
+.saiba-mais:hover{
+    background-color: rgb(3, 208, 208);
+    color: white;
+    border: 1px solid white;
+    box-shadow: rgba(45, 45, 45, 0.4) 0px 30px 90px;
 }
 
 
