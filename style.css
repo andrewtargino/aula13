@@ -261,7 +261,7 @@ ul>li{
 }
 .cursos{
     background: linear-gradient(#4BDAE1,#37e6d5);
-    width: 1240px;
+    width: 1080px;
     height: 80px;
     border-radius: 10px;
     color: white;
@@ -272,23 +272,22 @@ ul>li{
 }
 .cursos-profia{
     display: flex;
-    background-color: chocolate;
     justify-content: space-around;
 }
 .cardbox{
-    width: 520px;
-    height: 600px;
+    width: 480px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .cardbox:hover{
     background-color: azure;
 }
 .cardbox:hover .cardbox2{
     background-color: rgb(0, 225, 255);
-    background-image: url("./foot-hover.svg");
+    background-image: url("./foot-hover.svg"); 
     background-repeat: no-repeat;
     background-position: center;
     transition: all ease-in 0.5s;
@@ -297,7 +296,7 @@ ul>li{
     width: 230px;
     height: 300px;
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(118, 203, 220);
+    border: 1px solid rgb(235, 235, 235);
     position: absolute;
     bottom: 0;
     right: 0;
@@ -313,7 +312,48 @@ ul>li{
 .cursos, #avaliacao{
     background-color: chartreuse;
 }
-
+.titulocardbox{
+    padding-left: 50px;
+    padding-top: 45px;
+    display: flex;
+    font-weight: 50;
+    font-size: xx-large;
+}
+.textocardbox{
+    display: flex;
+    padding-top: 35px;
+    padding-left: 45px;
+    font-weight: 40;
+    font-size: 16px;
+}
+.ladoA{
+    padding-top: 80px;
+}
+.ladoB{
+    padding-top: 40px;
+}
+.containerparte2{
+    margin: 0 auto;
+    width: 1080px;
+    max-width: 90%;  
+    background-color: rgb(245, 245, 245); 
+}
+.botao-vagas{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(32, 224, 224);
+    font-size: 14px;
+    border-radius: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 50;
+    position: absolute;
+    left: 320px;
+    top: 45px    
+}
 
 
 
