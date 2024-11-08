@@ -287,10 +287,73 @@ ul>li{
 }
 .cardbox:hover .cardbox2{
     background-color: rgb(0, 225, 255);
-    background-image: url("./foot-hover.svg"); 
+    background-image: url("./foot-hover.svg");
     background-repeat: no-repeat;
     background-position: center;
     transition: all ease-in 0.5s;
+}
+.cardbox:hover .cardbox3{
+    background-color: rgb(0, 225, 255);
+    background-image: url("./brain.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease-in 0.5s;
+}
+.cardbox:hover .cardbox4{
+    background-color: rgb(0, 225, 255);
+    background-image: url("./world.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease-in 0.5s;
+}
+.cardbox:hover .cardbox5{
+    background-color: rgb(0, 225, 255);
+    background-image: url("./robotica.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease-in 0.5s;
+}
+.cardbox5{
+    width: 230px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-40deg) translateY(60px);
+    border-radius: 10px;
+    background-image: url("./android-robot-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cardbox4{
+    width: 230px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-40deg) translateY(60px);
+    border-radius: 10px;
+    background-image: url("./world-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cardbox3{
+    width: 230px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-40deg) translateY(60px);
+    border-radius: 10px;
+    background-image: url("./brain-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .cardbox2{
     width: 230px;
@@ -308,9 +371,6 @@ ul>li{
 }
 #cursosprofia{
     margin-bottom: 300px;
-}
-.cursos, #avaliacao{
-    background-color: chartreuse;
 }
 .titulocardbox{
     padding-left: 50px;
@@ -342,6 +402,8 @@ ul>li{
     margin: 0 auto;
     width: 1080px;
     max-width: 90%;  
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 .botao-vagas{
     width: 130px;
@@ -367,6 +429,8 @@ ul>li{
     height: 1px;
     background-color: rgb(220, 220, 220);
     margin: 0 auto;
+    position: relative;
+    top: 15px;
 }
 .saiba-mais{
     margin-left: 45px;
@@ -384,6 +448,25 @@ ul>li{
     border: 1px solid white;
     box-shadow: rgba(45, 45, 45, 0.4) 0px 30px 90px;
 }
+.titulo-planos{
+    background: linear-gradient(#4BDAE1,#37e6d5);
+    width: 1240px;
+    height: 80px;
+    border-radius: 10px;
+    color: white;
+    align-items: center; 
+    justify-content: center; 
+    display: flex;
+    font-size: 40px;
+}
+.planos{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+    display: flex;
+}
+
 
 
 
