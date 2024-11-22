@@ -490,6 +490,7 @@ ul>li{
     background-color: rgb(242, 242, 242);
     margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 60px;
 }
 .contact-topo{
     background: linear-gradient(#4BDAE1,#37e6d5);
@@ -515,7 +516,7 @@ ul>li{
 .contact-grupo{
     background-color: white;
     width: 700px;
-    height: 400px;
+    height: 600px;
     border-radius: 20px;
     display: flex;
 }
@@ -524,10 +525,11 @@ ul>li{
     width: 350px;
 }
 .contact-ladoA{
-    height: 400px;
+    height: 600px;
     width: 350px;
     border-right: 1px solid rgb(242, 242, 242);
     display: flex;
+    flex-direction: column;
 }
 .titulo-class{
     font-size: 14px;
@@ -538,7 +540,8 @@ ul>li{
 }
 .botao-class{
     height: 35px;
-    width: 100px;
+    padding: 5px;
+    max-width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -547,11 +550,12 @@ ul>li{
 }
 .conteudo-class-linha1{
     display: flex;
-    padding-top: 100px;
+    padding-top: 3px;
     list-style-type: none;
     flex-direction: column;
     gap:15px;
     font-size: 12px;
+    padding-left: 25px;
 }
 .botao-class:hover{
     background: linear-gradient(#4BDAE1,#37e6d5);
@@ -562,6 +566,84 @@ ul>li{
     color: rgb(167, 167, 167);
     font-weight: 10;
     padding-left: 30px;
+}
+.caixa1{
+    display: flex;
+    gap:15px;
+    color: rgb(133, 133, 133);
+}
+.botao-inteligencia{
+    height: 35px;
+    padding: 5px;
+    max-width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid rgb(196, 196, 196);
+}
+.botao-inteligencia:hover{
+    background: linear-gradient(#4BDAE1,#37e6d5);
+    color: white;
+}
+.titulo-class2{
+    font-size: 14px;
+    color: black;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.icones-social{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    gap:15px;
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+.whatsapp{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+.instagram:hover{
+    background: linear-gradient(#4BDAE1,#37e6d5);
+    color: white;
+}
+.whatsapp:hover{
+    background: linear-gradient(#4BDAE1,#37e6d5);
+    color: white;
+}
+.titulo-class3{
+    font-size: 14px;
+    color: black;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.class3{
+    font-size: medium;
+    color: rgb(167, 167, 167);
+    font-weight: 10;
+    padding-left: 30px;
+}
+.copyright{
+    font-size: small;
+    color: rgb(177, 177, 177);
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    font-weight: 100;
+    align-items: center;
 }
 
     
